@@ -1,5 +1,14 @@
 {
   "columns": {
+    "2520of20missing20data2c20domestic20financing20": {
+      "description": "%25%20of%20missing%20data%2C%20domestic%20financing%20(%25)", 
+      "display": "{{ currentIndicator }}%", 
+      "name": "%25%20of%20missing%20data%2C%20domestic%20financing%20(%25)", 
+      "precision": 2, 
+      "source_file": "%25%20of%20missing%20data%2C%20domestic%20financing%20(%25)-reformatted.csv", 
+      "tooltip": "tooltip: {{ currentIndicator }}%", 
+      "type": "number"
+    }, 
     "Location": {
       "location_type": "country", 
       "type": "location"
@@ -935,7 +944,8 @@
       "% of missing data, domestic financing (%)", 
       "Public Expenditure on Education as % of Public Expenditure", 
       "Learning Math highest Girls - SACMEQ", 
-      "GPE Funding Approval as % of GDP"
+      "GPE Funding Approval as % of GDP", 
+      "%25%20of%20missing%20data%2C%20domestic%20financing%20(%25)"
     ]
   }
 }
