@@ -799,6 +799,17 @@
       "tooltip": "tooltip: {{ currentIndicator }}%", 
       "type": "number"
     }, 
+    "test": {
+      "description": "Test", 
+      "display": "{{ currentIndicator }}%", 
+      "max": null, 
+      "min": null, 
+      "name": "Test", 
+      "precision": 2, 
+      "source_file": "% of missing data, domestic financing (%)-reformatted.csv", 
+      "tooltip": "tooltip: {{ currentIndicator }}%", 
+      "type": "number"
+    }, 
     "youth__literacy_rate__female": {
       "description": "Youth (15-24) literacy rate (%) female", 
       "display": "{{ currentIndicator }}%", 
@@ -1001,7 +1012,8 @@
       "% of missing data, domestic financing", 
       "% of missing data, domestic financing", 
       "% of missing data, domestic financing", 
-      "% of missing data, domestic financing"
+      "% of missing data, domestic financing", 
+      "Test"
     ]
   }
 }
